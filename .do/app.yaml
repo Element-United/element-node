@@ -1,0 +1,8 @@
+name: element-node-app
+workers:
+- dockerfile_path: Dockerfile
+  github:
+    branch: main
+    deploy_on_push: true
+    repo: https://github.com/Element-United/element-node
+  name: element-node

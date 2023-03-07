@@ -1,0 +1,8 @@
+spec:
+  name: element-node-app
+  workers:
+  - dockerfile_path: Dockerfile
+    git:
+      branch: main
+      repo_clone_url: https://github.com/Element-United/element-node.git
+    name: element-node-worker
